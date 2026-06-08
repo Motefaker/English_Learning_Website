@@ -13,8 +13,6 @@ form.addEventListener('submit', (e) => {
     };
 
     localStorage.setItem('formData', JSON.stringify(obj));
-    localStorage.setItem('isLoggedIn', 'true');
-
 
     window.location.href = "/pages/quiz-session.html";
 });

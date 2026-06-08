@@ -1,7 +1,3 @@
-const isLoggedIn = localStorage.getItem('isLoggedIn') === 'ture';
-console.log(isLoggedIn);
-
-
 const form = document.querySelector('form');
 if (!form) {
   console.error("Form not found!");

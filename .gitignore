@@ -1,0 +1,14 @@
+# Dependencies (Huge folder! Don't commit this)
+node_modules/
+
+# Environment Variables (Contains your secret keys!)
+.env
+.env.local
+
+# Build output (Your host will generate this)
+build/
+dist/
+
+# OS junk files
+.DS_Store
+Thumbs.db
